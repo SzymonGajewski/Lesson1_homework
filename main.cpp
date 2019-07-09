@@ -26,9 +26,9 @@ int main()
     cout<<"Write a sentence to check: ";
     getline(cin, sentence);
     if(palindrome(sentence)){
-    cout<<"It's a palindrome.";}
+    cout<<"It's a palindrome."<<'\n';}
     else{
-    cout<<"It isn't a palindrome.";}
+    cout<<"It isn't a palindrome."<<'\n';}
 
     return 0;
 }
