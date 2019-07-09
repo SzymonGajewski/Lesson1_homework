@@ -9,7 +9,7 @@ string sentence;
 bool palindrome(string sentence)
 {
     int x=0;
-
+    sentence.erase(remove(sentence.begin(), sentence.end(), ' '), sentence.end());
     int length=sentence.length();
         if(length==0){cout<<"No sentence was given.";exit(0);}
             for(int i=0; i<(length/2) ;i++)
