@@ -14,7 +14,7 @@ bool palindrome(string sentence)
         if(length==0){cout<<"No sentence was given.";exit(0);}
             for(int i=0; i<(length/2) ;i++)
             {
-               // if(sentence[x]==sentence[length-x-1])
+                if(sentence[x]==sentence[length-x-1])
                 x++;
             }
         if (x==length/2) return true;
