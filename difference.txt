@@ -1,0 +1,8 @@
+Google:
+
+if (sentence[x] == sentence[length - x - 1]) x++;
+
+LLVM:
+
+if (sentence[x] == sentence[length - x - 1])
+ x++;
